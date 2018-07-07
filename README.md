@@ -26,7 +26,7 @@
 
 	Example:
 	```
-	.$:  gradle clean check test build
+	.$:  gradle clean check test
 	```
 
 	Depending on your OS, you may need to run "gradlew.bat clean check test build".
