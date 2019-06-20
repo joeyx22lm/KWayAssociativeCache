@@ -1,6 +1,7 @@
 ## K-Way Set Associative Cache in Java       [![Build Status](https://travis-ci.com/joeyx22lm/KWayAssociativeCache.svg?token=XFzRrEHp76sxknttwnK8&branch=master)](https://travis-ci.com/joeyx22lm/KWayAssociativeCache)
 	Author: Joseph Orlando
 	Written for EEL4768.
+	Characterizes LRU and FIFO caching techniques for a K-Way Set Associative cache.
 
 ### Prerequisites
 
