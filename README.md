@@ -30,7 +30,7 @@
 	```
 
 	Depending on your OS, you may need to run "gradlew.bat clean check test build".
-	Depending on your OS, you may need to run "./gradle clean check test build"
+	Depending on your OS, you may need to run "./gradlew clean check test build"
 
 	You should see BUILD SUCCESSFUL ->
 
@@ -62,9 +62,3 @@
 	.$:	  gradle clean check test build
 	.$:	  java -jar build/libs/SIM.jar 32768 2 0 ~/Downloads/MINIFE.t
 	```
-
-### Help! I cannot build!
-
-	If you cannot build the source code (perhaps you cannot retrieve a proper dependency?)
-	The fresh copy of this source code is prepackaged with the latest build in "build/libs".
-	As long as you do not "clean" and rebuild, the latest working build should still reside there.
