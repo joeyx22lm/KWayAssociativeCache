@@ -1,0 +1,14 @@
+stages:
+  - test
+
+before_script:
+  - echo `pwd`
+  - echo "$CI_BUILD_NAME, $CI_BUILD_REF_NAME $CI_BUILD_STAGE"
+  - rm -rf `pwd`/.gradle
+
+test:
+  tags: [java, kvm2]
+  image: java:8-jdk
+  stage: test
+  script:
+    - ./gradlew clean build check test javadoc
